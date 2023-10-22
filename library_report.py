@@ -53,7 +53,7 @@ def library_report():
             if len(taken_books) > 0:
                 for book, users in taken_books.items():
                     for user in users:
-                        f.write(f'- {book} - читает {user}\n')
+                        f.write(f'- {book} - reads {user}\n')
             else:
                 f.write('There are no unavailable books\n')
 
