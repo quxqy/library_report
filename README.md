@@ -90,7 +90,7 @@ The script includes error handling for the following cases:
 
 - Request errors:
   - If there is an error while making a request to the JSON API, an error message will be printed. <p>
-  **Request execution error**
+  **Request execution error {error name}** 
 - File write errors:
   - If there is an error while writing the library report file, an error message will be printed.<p>
-  **Error writing to disk**
+  **Error writing to disk {error name}**
